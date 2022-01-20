@@ -1,0 +1,60 @@
+@import '../../styles/colors.scss';
+
+.header {
+  .hero {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    background: url('/backgroundheader.png') no-repeat;
+    background-size: cover;
+
+    .content {
+      max-width: 1050px;
+      text-align: center;
+      color: #fff;
+
+      h4 {
+        font-size: 64px;
+        font-family: "Pacifico";
+        font-weight: 400;
+      }
+
+      p {
+        font-size: 18px;
+        color: $clrDarkFont;
+        margin-top: 24px;
+      }
+
+      button {
+        margin-top: 80px;
+        padding: 15px 30px;
+        color: $clrPrimary;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 18px;
+        background-color: #fff;
+        border-radius: 8px;
+        transition: .2s all ease;
+        margin-top: 24px;
+
+        &:hover {
+          filter: brightness(0.9);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    .content {
+      padding: 0 20px;
+
+      h4 {
+        font-size: 36px !important;
+      }
+    }
+  }
+}
