@@ -1,0 +1,19 @@
+@import '../../styles/colors.scss';
+
+.footer {
+  .footercontent {
+    padding: 40px;
+    background-color: $clrPrimary;
+
+    .rights {
+      p {
+        color: #fff;
+        font-size: 24px;
+      }
+
+      a {
+        color: #e6e6e6;
+      }
+    }
+  }
+}

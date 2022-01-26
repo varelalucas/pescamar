@@ -34,7 +34,7 @@ const AboutUs: NextPage = () => {
             <div className={styles.flex}>
               <div className={styles.textos}>
                 <h4>
-                  Garantia
+                  Controle de qualidade
                 </h4>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quas ipsa corrupti quam quaerat sint officia hic earum necessitatibus, delectus aliquid praesentium ullam possimus tempora deleniti, obcaecati maiores autem facere?  ipsum dolor sit, amet consectetur adipisicing elit. Soluta quas ipsa corrupti quam quaerat sint officia hic earum necessitatibus, delectus aliquid praesentium ullam possimus tempora deleniti, obcaecati maiores autem facere?
