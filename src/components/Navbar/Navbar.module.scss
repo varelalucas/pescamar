@@ -19,6 +19,13 @@
 
           button {
             font-size: 18px;
+            font-weight: 500;
+            width: 100%;
+
+            &:hover, &.active {
+              font-weight: 700;
+              color: $clrPrimary;
+            }
           }
         }
       }
@@ -32,6 +39,30 @@
 
         &:nth-child(2) {
           display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 20px !important;
+  }
+
+  .brand {
+    button {
+      img {
+        width: 70%;
+      }
+    }
+  }
+
+  .links {
+    ul {
+      li {
+        button {
+          font-size: 18px;
         }
       }
     }

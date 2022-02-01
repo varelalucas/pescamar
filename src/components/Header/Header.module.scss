@@ -48,9 +48,34 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .hero {
+    padding-top: -0px !important;
+    padding-bottom: 0 !important;
+    padding-right: 80px !important;
+    padding-left: 80px !important;
+
+    .content {
+      margin-top: -70px;
+    }
+    
+    h4 {
+      font-size: 48px !important;
+    }
+
+    p {
+      font-size: 16px !important;
+    }
+  }
+}
+
 @media (max-width: 576px) {
   .hero {
+    padding-left: 0 !important;
+    padding-right: 0 !important;;
+
     .content {
+      margin-top: 0 !important;
       padding: 0 20px;
 
       h4 {

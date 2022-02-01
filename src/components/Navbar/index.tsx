@@ -35,22 +35,22 @@ const Navbar: NextPage = () => {
           <div className={`${styles.links} ${classActive}`}>
             <ul>
               <li>
-                <button>
+                <button onClick={() => router.push('/')} className={router.pathname == "/" ? styles.active : styles.button}>
                   Início
                 </button>
               </li>
               <li>
-                <button>
+                <button onClick={() => router.push('/catalogo')}className={router.pathname.match("/catalogo") ? styles.active : styles.button}>
                   Nossos produtos
                 </button>
               </li>
               <li>
-                <button>
+                <button onClick={() => router.push('/#sobrenos')}>
                   A empresa
                 </button>
               </li>
               <li>
-                <button>
+                <button onClick={() => router.push('/#contato')}>
                   Contato
                 </button>
               </li>

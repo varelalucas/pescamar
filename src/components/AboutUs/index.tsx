@@ -4,7 +4,7 @@ import styles from './AboutUs.module.scss'
 
 const AboutUs: NextPage = () => {
   return (
-    <section className={styles.aboutus}>
+    <section className={styles.aboutus} id="sobrenos">
       <div className="container">
         <div className={styles.title}>
           <h4>

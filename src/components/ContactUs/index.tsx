@@ -51,7 +51,7 @@ const ContactUs: NextPage = () => {
   }
 
   return (
-    <section className={styles.contactus}>
+    <section className={styles.contactus} id="contato">
       <div className="container">
         <div className={styles.title}>
           <h4>

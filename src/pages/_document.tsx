@@ -38,7 +38,7 @@ class MyDocument extends Document {
             content="O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro"
           />
           <link rel="shortcut icon" href="/logo.png" />
-          <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&family=Saira:wght@100;400;500;700&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />
